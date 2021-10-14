@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/CSS" href="formulario.css" mdeia="">
+    <title></title>
+</head>
+<body>
+
+    <div>
+        <fieldset>
+        <h1>CURRÍCULO</h1>
+        <h3>A empresa Maria Tecnologias abre vagas para contratação de profissionais na área de TI.</h3>
+        <h4>Horário de trabalho flexível: O horário de funcionamento da empresa inicia às 7:00 e termina às 22:00.
+            O funcionário deve cumprir uma jornada de trabalho de 8:00 horas dentro deste limite.
+            <br>
+            <br>
+            A empresa fornece:
+            <br>
+            <br>
+            * Vale alimentação;
+           <br>
+            * Vale transporte;
+           <br>
+            * Plano de saúde;
+            <br>
+            * Plano odontológico;
+            <br>
+            * Espaço para lazer.
+            <br>
+            <br>
+            Não perca esta oportunidade e preencha o formulário com as suas informações!
+
+        </h4>
+    </div>
+        </fieldset>
+    <form>
+        <fieldset>
+            
+            <h3>Informações pessoais</h3>
+            <div>
+                <label>Nome Completo</label>
+                <input type="text" name="nome" id="nome" size="40">
+            </div>
+        
+            <br>
+             <div>
+                <label>Email</label>
+                <input type="text" nome="email" id="email" size="40">
+             </div>
+
+             <br>
+             <div>
+                <label>Número de Telefone</label>
+                <input type="text" nome="numero" id="numero" size="40">
+             </div>
+
+             <br>
+             <div>
+                <label>Idade</label>
+                <input type="text" nome="idade" id="idade" size="40">
+             </div>
+
+             <br>
+             <div>
+                <label>Sexo</label>
+                <input type="text" nome="sexo" id="sexo" size="40">
+             </div>
+
+             <br>
+             <div>
+                <label>Formação Acadêmica</label>
+                <input type="text" nome="formação" id="formação" size="60">
+             </div>
+             <br>
+             <div>
+                <label>Data de Nascimento</label>
+                <input type="date" nome="data" id="data">
+             </div>
+
+             
+         </fieldset>
+         <fieldset>
+             <h3>Habilidades</h3>
+             <div>
+                 <label>Fluência</label>
+                 <select id="Fluência">
+                     <option>Selecione</option>
+                     <option>Inglês avançado</option>
+                     <option>Inglês intermediário</option>
+                     <option>Inglês básico</option>
+                 </select>
+             </div>
+             <br>
+             <div>
+                 <label>Selecione as tecnologias nas quais você é experiente:</label>
+                 <input type="checkbox" id="tecnologial" name="tecnologial" value="HTML">
+                 <label>HTML</label>
+                 <input type="checkbox" id="tecnologial" name="tecnologial" value="CSS">
+                 <label>CSS</label>
+                 <input type="checkbox" id="tecnologial" name="tecnollogial" value="JavaScript">
+                 <label>JavaScript</label>
+                 <input type="checkbox" id="tecnologial" name="tecnologial" value="PHP">
+                 <label>PHP</label>
+                 <input type="checkbox" id="tecnologial" name="tecnologial" value="Python">
+                 <label>Python</label>
+                 <input type="checkbox" id="tecnologial" name="tecnologial" value="C#">
+                 <label>C#</label>
+             </div>
+             <br>
+             <div>
+                <label>Conte um pouco de sua experiência na área de tecnologia e quais são as suas especializações: </label>
+                <br>
+                <textarea rows="20" cols="100" maxlength="2000"></textarea>
+             </div>
+         </fieldset>
+
+         <fieldset>
+             <div>
+                 <h3>Endereço</h3>
+                 <div>
+                    <label>Cidade</label>
+                    <input type="text" nome="cidade" id="cidade" size="60">
+                 </div>
+                 <br>
+                 <div>
+                    <label>Bairro</label>
+                    <input type="text" nome="bairro" id="bairro" size="60">
+                 </div>
+                 <br>
+                 <div>
+                    <label>Rua</label>
+                    <input type="text" nome="rua" id="rua" size="60">
+                 </div>
+                 
+             </div>
+         </fieldset>
+         <button type="submit">Concluído</button>
+    </form>
+</body>
+</html>
